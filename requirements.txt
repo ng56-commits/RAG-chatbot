@@ -7,4 +7,4 @@ pypdf
 langchain_huggingface
 langchain_core
 sentence-transformers
-langchain_groq
+langchain_groq 
