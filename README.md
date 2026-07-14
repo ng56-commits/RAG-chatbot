@@ -69,15 +69,18 @@ streamlit run app.py
 5. Get instant answers from your PDF!
 
 ## Project Structure
+
+```
 rag-pdf-chatbot/
-  app.py
-  requirements.txt
-  .env
-  .gitignore
-  README.md
-  data/
-    uploads/
-    vectorstore/
+├── app.py                      # Main Streamlit application
+├── requirements.txt            # Python dependencies
+├── .env                        # Environment variables (not in git)
+├── .gitignore                  # Git ignore rules
+├── README.md                   # Project documentation
+└── data/
+    ├── uploads/                # Uploaded PDF files
+    └── vectorstore/            # ChromaDB vector storage
+```
 
 ## How It Works
 
