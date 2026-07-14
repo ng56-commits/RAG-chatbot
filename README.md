@@ -70,14 +70,14 @@ streamlit run app.py
 
 ## Project Structure
 rag-pdf-chatbot/
-├── app.py                      # Main Streamlit application
-├── requirements.txt            # Python dependencies
-├── .env                        # Environment variables (not in git)
-├── .gitignore                  # Git ignore rules
-├── README.md                   # Project documentation
-└── data/
-├── uploads/                # Uploaded PDF files
-└── vectorstore/            # ChromaDB vector storage
+  app.py
+  requirements.txt
+  .env
+  .gitignore
+  README.md
+  data/
+    uploads/
+    vectorstore/
 
 ## How It Works
 
